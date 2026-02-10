@@ -152,7 +152,7 @@ MarkCraft is a beautiful code editor built natively in Swift/SwiftUI for macOS. 
 ### Installation
 
 ```bash
-git clone https://github.com/markcraft-app/markcraft.git
+git clone https://github.com/seth-may/Markcraft.git
 cd markcraft && open MarkCraft.xcodeproj
 ```
 
