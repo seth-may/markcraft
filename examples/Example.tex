@@ -1,0 +1,64 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage[margin=2.5cm]{geometry}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+
+\title{On the Convergence of Recursive Sequences}
+\author{Marie Curie \and Albert Einstein}
+\date{\today}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+We prove that the sequence defined by $a_{n+1} = \frac{1}{2}(a_n + \frac{k}{a_n})$
+converges to $\sqrt{k}$ for any $k > 0$ and $a_0 > 0$.
+\end{abstract}
+
+\section{Introduction}
+Let $k > 0$ be a positive real number. The \emph{Babylonian method}
+defines a sequence $\{a_n\}_{n \in \N}$ by:
+\begin{equation}\label{eq:recurrence}
+    a_{n+1} = \frac{1}{2}\left(a_n + \frac{k}{a_n}\right), \quad a_0 > 0
+\end{equation}
+
+\begin{theorem}[Convergence]\label{thm:main}
+For any $a_0 > 0$ and $k > 0$, the sequence~\eqref{eq:recurrence}
+satisfies $\lim_{n \to \infty} a_n = \sqrt{k}$.
+\end{theorem}
+
+\begin{proof}
+By the AM-GM inequality, for $n \geq 1$:
+\[
+    a_{n+1} = \frac{a_n^2 + k}{2a_n} \geq \frac{2\sqrt{a_n^2 \cdot k}}{2a_n} = \sqrt{k}
+\]
+Thus $a_n \geq \sqrt{k}$ for all $n \geq 1$. Now consider:
+\[
+    a_{n+1} - \sqrt{k} = \frac{(a_n - \sqrt{k})^2}{2a_n} \geq 0
+\]
+The sequence is monotonically decreasing and bounded below.
+By the \textbf{Monotone Convergence Theorem}, $\lim a_n = L$ exists.
+Taking limits: $L = \frac{1}{2}(L + k/L) \Rightarrow L = \sqrt{k}$.
+\end{proof}
+
+\begin{table}[h]\centering
+\caption{Convergence to $\sqrt{2}$ from $a_0 = 1$}
+\begin{tabular}{c|c|c}
+$n$ & $a_n$ & $|a_n - \sqrt{2}|$ \\ \hline
+0 & 1.000000 & 0.414214 \\
+1 & 1.500000 & 0.085786 \\
+2 & 1.416667 & 0.002453 \\
+3 & 1.414216 & 0.000002
+\end{tabular}
+\end{table}
+
+\bibliographystyle{plain}
+\bibliography{refs}
+\end{document}

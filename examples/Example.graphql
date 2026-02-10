@@ -1,0 +1,99 @@
+# MarkCraft API Schema
+scalar DateTime
+scalar JSON
+
+enum Role { ADMIN EDITOR VIEWER }
+enum ProjectStatus { DRAFT ACTIVE ARCHIVED }
+
+interface Node {
+  id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+type User implements Node {
+  id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  email: String!
+  name: String!
+  avatar: String
+  role: Role!
+  projects: [Project!]! @connection
+  snippets(first: Int = 10, after: String): SnippetConnection!
+}
+
+type Project implements Node {
+  id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  title: String!
+  description: String
+  status: ProjectStatus!
+  owner: User!
+  collaborators: [User!]!
+  files: [File!]!
+  settings: JSON
+}
+
+type File implements Node {
+  id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  path: String!
+  language: String!
+  content: String!
+  project: Project!
+  lineCount: Int!
+  size: Int!
+}
+
+type Snippet implements Node {
+  id: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  title: String!
+  code: String!
+  language: String!
+  tags: [String!]!
+  author: User!
+  isPublic: Boolean!
+}
+
+type SnippetConnection {
+  edges: [SnippetEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+type SnippetEdge { cursor: String!; node: Snippet! }
+type PageInfo { hasNextPage: Boolean!; endCursor: String }
+
+input CreateProjectInput {
+  title: String!
+  description: String
+  collaboratorIds: [ID!]
+}
+
+input UpdateFileInput {
+  content: String!
+  message: String
+}
+
+type Query {
+  me: User!
+  user(id: ID!): User
+  project(id: ID!): Project
+  searchSnippets(query: String!, language: String, first: Int): SnippetConnection!
+}
+
+type Mutation {
+  createProject(input: CreateProjectInput!): Project!
+  updateFile(id: ID!, input: UpdateFileInput!): File!
+  deleteProject(id: ID!): Boolean!
+  createSnippet(title: String!, code: String!, language: String!): Snippet!
+}
+
+type Subscription {
+  fileChanged(projectId: ID!): File!
+  projectUpdated(id: ID!): Project!
+}

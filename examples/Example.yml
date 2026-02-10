@@ -1,0 +1,72 @@
+# Kubernetes Deployment for MarkCraft Backend
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: markcraft-api
+  namespace: production
+  labels:
+    app: markcraft
+    component: api
+    version: v150
+spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: markcraft
+      component: api
+  template:
+    metadata:
+      labels:
+        app: markcraft
+        component: api
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "9090"
+    spec:
+      containers:
+        - name: api
+          image: markcraft/api:1.5.0
+          ports:
+            - containerPort: 8080
+              name: http
+            - containerPort: 9090
+              name: metrics
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: markcraft-secrets
+                  key: database-url
+            - name: REDIS_URL
+              value: redis://redis-cluster:6379
+          resources:
+            requests:
+              cpu: 250m
+              memory: 256Mi
+            limits:
+              cpu: "1"
+              memory: 512Mi
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 15
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /ready
+              port: http
+            initialDelaySeconds: 5
+            periodSeconds: 5
+          volumeMounts:
+            - name: config
+              mountPath: /etc/markcraft
+      volumes:
+        - name: config
+          configMap:
+            name: markcraft-config

@@ -1,0 +1,59 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "MarkCraft API",
+    "version": "1.5.0",
+    "description": "API for MarkCraft IDE backend services"
+  },
+  "paths": {
+    "/api/v1/documents": {
+      "get": {
+        "summary": "List documents",
+        "parameters": [
+          { "name": "page", "in": "query", "schema": { "type": "integer", "default": 1 } },
+          { "name": "limit", "in": "query", "schema": { "type": "integer", "default": 20 } },
+          { "name": "lang", "in": "query", "schema": { "type": "string", "enum": ["swift", "python", "rust"] } }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "data": { "type": "array", "items": { "$ref": "\#/components/schemas/Document" } },
+                    "meta": { "$ref": "\#/components/schemas/Pagination" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Document": {
+        "type": "object",
+        "required": ["id", "title", "language"],
+        "properties": {
+          "id": { "type": "string", "format": "uuid" },
+          "title": { "type": "string" },
+          "language": { "type": "string" },
+          "content": { "type": "string" },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "lines": { "type": "integer" },
+              "size_bytes": { "type": "integer" },
+              "created_at": { "type": "string", "format": "date-time" },
+              "modified_at": { "type": "string", "format": "date-time" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D1B69"/>
+      <stop offset="100%" stop-color="#0D0A2A"/>
+    </linearGradient>
+    <linearGradient id="mGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5A623"/>
+      <stop offset="50%" stop-color="#E8875B"/>
+      <stop offset="100%" stop-color="#D4648A"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#67E8F9" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="innerShadow">
+      <feOffset dx="0" dy="4"/>
+      <feGaussianBlur stdDeviation="6"/>
+      <feComposite operator="out" in="SourceGraphic"/>
+      <feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.25 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <!-- Background with rounded corners (Apple icon mask) -->
+  <rect x="32" y="32" width="960" height="960" rx="216" fill="url(#bgGrad)"/>
+  <!-- Subtle glow -->
+  <ellipse cx="512" cy="400" rx="320" ry="280" fill="url(#glowGrad)"/>
+  <!-- M letterform — the iconic MarkCraft M -->
+  <path d="M 236,760 L 236,310 L 336,310 L 512,560 L 688,310 L 788,310 L 788,760 L 696,760 L 696,456 L 540,680 L 484,680 L 328,456 L 328,760 Z" fill="url(#mGrad)" filter="url(#glow)"/>
+  <!-- Decorative pen nib accent at bottom-right -->
+  <path d="M 740,800 L 760,760 L 780,800 L 760,810 Z" fill="#67E8F9" opacity="0.6"/>
+  <!-- Small star accent -->
+  <circle cx="800" cy="250" r="4" fill="#F5A623" opacity="0.7"/>
+  <circle cx="820" cy="270" r="2.5" fill="#A78BFA" opacity="0.5"/>
+  <circle cx="790" cy="280" r="1.8" fill="#67E8F9" opacity="0.4"/>
+</svg>

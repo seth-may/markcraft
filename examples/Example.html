@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <style>
+    :root { --primary: #6366f1; --bg: #0f172a; --card: #1e293b; --text: #e2e8f0; }
+    * { margin: 0; box-sizing: border-box; }
+    body { font-family: system-ui; background: var(--bg); color: var(--text); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; padding: 2rem; }
+    .card { background: var(--card); border-radius: 12px; padding: 1.5rem; }
+    .card h3 { color: var(--primary); margin-bottom: 0.5rem; }
+    .metric { font-size: 2rem; font-weight: 800; }
+    .chart { height: 200px; position: relative; display: flex; align-items: flex-end; gap: 4px; }
+    .bar { background: var(--primary); border-radius: 4px 4px 0 0; flex: 1; transition: height 0.3s; }
+    .bar:hover { opacity: 0.8; }
+    nav { display: flex; gap: 1rem; padding: 1rem 2rem; border-bottom: 1px solid #334155; }
+    nav a { color: var(--text); text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; }
+    nav a.active { background: var(--primary); }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="\#" class="active">Overview</a>
+    <a href="\#">Analytics</a>
+    <a href="\#">Settings</a>
+  </nav>
+  <div class="grid">
+    <div class="card"><h3>Revenue</h3><div class="metric" id="revenue">$0</div></div>
+    <div class="card"><h3>Users</h3><div class="metric" id="users">0</div></div>
+    <div class="card"><h3>Trends</h3><div class="chart" id="chart"></div></div>
+  </div>
+  <script>
+    const data = [30, 45, 28, 65, 42, 78, 55, 90, 63, 85, 72, 95];
+    const chart = document.getElementById('chart');
+    const max = Math.max(...data);
+    data.forEach(v => {
+      const bar = document.createElement('div');
+      bar.className = 'bar';
+      bar.style.height = (v / max * 100) + '%';
+      bar.title = v;
+      chart.appendChild(bar);
+    });
+    const animate = (el, target, prefix = '') => {
+      let current = 0;
+      const step = target / 60;
+      const tick = () => { current = Math.min(current + step, target); el.textContent = prefix + Math.floor(current).toLocaleString(); if (current < target) requestAnimationFrame(tick); };
+      tick();
+    };
+    animate(document.getElementById('revenue'), 284500, '$');
+    animate(document.getElementById('users'), 12847);
+  </script>
+</body>
+</html>

@@ -1,0 +1,400 @@
+{
+  "en": {
+    "name": "English",
+    "flag": "🇬🇧",
+    "app_name": "MarkCraft — Poetic IDE",
+    "subtitle": "60-Language Code Editor & Developer Journal",
+    "description": "MarkCraft is the IDE that transforms coding into a creative act. Write, annotate, record, and reflect — all in one poetic environment.\n\nFEATURES:\n• 60-Language Syntax Highlighting — From Swift to Zig, every language gets first-class treatment\n• Developer Journal — Track your coding journey with streaks, mood tracking, and flashcards\n• Ink Annotations — Draw directly on your code with Apple Pencil support\n• Audio Recording — Record voice notes synced to your code changes\n• AI Chat Assistant — Get intelligent help powered by Claude\n• Terminal Emulator — Run code in 29 languages without leaving the app\n• PDF Book Export — Turn your journal into a beautiful printed book\n• 39 UI Languages — Fully localized interface for global developers\n• Mini Game Engine — Built-in ECS game engine demo in pure SwiftUI\n• Pomodoro Timer — Stay focused with built-in productivity tools\n\nDESIGNED FOR APPLE:\n• 100% Native SwiftUI — No web views, no compromises\n• macOS 14.0+ optimized — Full keyboard shortcuts, split view, focus mode\n• Dark & Light themes — Carefully crafted obsidian palette\n• Privacy First — All data stays on your device\n\nMarkCraft V150 — Where code meets the soul.",
+    "keywords": "IDE,code editor,journal,developer,syntax,SwiftUI,coding,programming,markdown,notebook",
+    "promo": "The IDE that transforms coding into a creative act.",
+    "whats_new": "V150: Complete rebuild with 41 clean files, 60 languages, ECS game engine, terminal emulator, and zero compilation issues."
+  },
+  "fr": {
+    "name": "Français",
+    "flag": "🇫🇷",
+    "app_name": "MarkCraft — IDE Poétique",
+    "subtitle": "Éditeur 60 Langages & Journal Développeur",
+    "description": "MarkCraft est l'IDE qui transforme le code en acte créatif. Écrivez, annotez, enregistrez et réfléchissez — dans un seul environnement poétique.\n\nFONCTIONNALITÉS :\n• Coloration syntaxique 60 langages — De Swift à Zig, chaque langage est traité en première classe\n• Journal développeur — Suivez votre parcours de codage avec séries, suivi d'humeur et flashcards\n• Annotations encre — Dessinez directement sur votre code avec support Apple Pencil\n• Enregistrement audio — Notes vocales synchronisées avec vos changements de code\n• Assistant IA — Aide intelligente propulsée par Claude\n• Émulateur terminal — Exécutez du code en 29 langages sans quitter l'app\n• Export livre PDF — Transformez votre journal en beau livre imprimé\n• 39 langues d'interface — Interface entièrement localisée\n• Mini moteur de jeu — Démo ECS intégrée en SwiftUI pur\n• Timer Pomodoro — Restez concentré avec les outils de productivité\n\nCONÇU POUR APPLE :\n• 100% SwiftUI natif — Pas de web views, pas de compromis\n• Optimisé macOS 14.0+ — Raccourcis clavier, vue scindée, mode focus\n• Thèmes sombre & clair — Palette obsidienne soigneusement conçue\n• Vie privée d'abord — Toutes les données restent sur votre appareil\n\nMarkCraft V150 — Là où le code rencontre l'âme.",
+    "keywords": "IDE,éditeur code,journal,développeur,syntaxe,SwiftUI,programmation,markdown,carnet,codage",
+    "promo": "L'IDE qui transforme le code en acte créatif.",
+    "whats_new": "V150 : Reconstruction complète avec 41 fichiers propres, 60 langages, moteur de jeu ECS, terminal et zéro erreur."
+  },
+  "de": {
+    "name": "Deutsch",
+    "flag": "🇩🇪",
+    "app_name": "MarkCraft — Poetische IDE",
+    "subtitle": "60-Sprachen-Code-Editor & Entwickler-Tagebuch",
+    "description": "MarkCraft ist die IDE, die das Programmieren in einen kreativen Akt verwandelt.\n\nFUNKTIONEN:\n• 60 Sprachen Syntax-Highlighting\n• Entwickler-Tagebuch mit Streaks und Stimmungstracking\n• Tinte-Annotationen direkt auf dem Code\n• Audio-Aufnahme synchronisiert mit Code-Änderungen\n• KI-Chat-Assistent (Claude)\n• Terminal-Emulator für 29 Sprachen\n• PDF-Buch-Export\n• 39 UI-Sprachen\n• 100% natives SwiftUI\n\nMarkCraft V150 — Wo Code auf die Seele trifft.",
+    "keywords": "IDE,Code-Editor,Tagebuch,Entwickler,Syntax,SwiftUI,Programmierung,Markdown,Notebook",
+    "promo": "Die IDE, die Programmieren in einen kreativen Akt verwandelt.",
+    "whats_new": "V150: Kompletter Neuaufbau mit 41 sauberen Dateien und 60 Sprachen."
+  },
+  "es": {
+    "name": "Español",
+    "flag": "🇪🇸",
+    "app_name": "MarkCraft — IDE Poético",
+    "subtitle": "Editor de Código 60 Lenguajes & Diario de Desarrollador",
+    "description": "MarkCraft transforma la programación en un acto creativo. Editor de 60 lenguajes, diario de desarrollador, anotaciones con tinta, grabación de audio, asistente IA, terminal integrado, exportación PDF. 100% SwiftUI nativo. V150.",
+    "keywords": "IDE,editor código,diario,desarrollador,sintaxis,SwiftUI,programación,markdown",
+    "promo": "El IDE que transforma la programación en un acto creativo.",
+    "whats_new": "V150: Reconstrucción completa con 41 archivos limpios y 60 lenguajes."
+  },
+  "it": {
+    "name": "Italiano",
+    "flag": "🇮🇹",
+    "app_name": "MarkCraft — IDE Poetico",
+    "subtitle": "Editor Codice 60 Linguaggi & Diario Sviluppatore",
+    "description": "MarkCraft trasforma la programmazione in un atto creativo. Editor 60 linguaggi, diario sviluppatore, annotazioni inchiostro, registrazione audio, assistente IA, terminale integrato, esportazione PDF. 100% SwiftUI nativo. V150.",
+    "keywords": "IDE,editor codice,diario,sviluppatore,sintassi,SwiftUI,programmazione,markdown",
+    "promo": "L'IDE che trasforma la programmazione in un atto creativo.",
+    "whats_new": "V150: Ricostruzione completa con 41 file puliti e 60 linguaggi."
+  },
+  "pt": {
+    "name": "Português (BR)",
+    "flag": "🇧🇷",
+    "app_name": "MarkCraft — IDE Poético",
+    "subtitle": "Editor de Código 60 Linguagens & Diário de Desenvolvedor",
+    "description": "MarkCraft transforma a programação em um ato criativo. Editor de 60 linguagens, diário de desenvolvedor, anotações com tinta, gravação de áudio, assistente IA, terminal integrado, exportação PDF. 100% SwiftUI nativo. V150.",
+    "keywords": "IDE,editor código,diário,desenvolvedor,sintaxe,SwiftUI,programação,markdown",
+    "promo": "O IDE que transforma a programação em um ato criativo.",
+    "whats_new": "V150: Reconstrução completa com 41 arquivos limpos e 60 linguagens."
+  },
+  "ja": {
+    "name": "日本語",
+    "flag": "🇯🇵",
+    "app_name": "MarkCraft — 詩的IDE",
+    "subtitle": "60言語コードエディタ＆開発者ジャーナル",
+    "description": "MarkCraftはコーディングを創造的な行為に変えるIDEです。60言語のシンタックスハイライト、開発者ジャーナル、インクアノテーション、音声録音、AIアシスタント、ターミナルエミュレータ、PDF書籍エクスポート。100%ネイティブSwiftUI。V150。",
+    "keywords": "IDE,コードエディタ,ジャーナル,開発者,シンタックス,SwiftUI,プログラミング,マークダウン",
+    "promo": "コーディングを創造的な行為に変えるIDE。",
+    "whats_new": "V150：41のクリーンなファイルと60言語による完全な再構築。"
+  },
+  "ko": {
+    "name": "한국어",
+    "flag": "🇰🇷",
+    "app_name": "MarkCraft — 시적 IDE",
+    "subtitle": "60개 언어 코드 에디터 & 개발자 저널",
+    "description": "MarkCraft는 코딩을 창의적 행위로 변환하는 IDE입니다. 60개 언어 구문 강조, 개발자 저널, 잉크 주석, 오디오 녹음, AI 어시스턴트, 터미널 에뮬레이터, PDF 책 내보내기. 100% 네이티브 SwiftUI. V150.",
+    "keywords": "IDE,코드에디터,저널,개발자,구문,SwiftUI,프로그래밍,마크다운",
+    "promo": "코딩을 창의적 행위로 변환하는 IDE.",
+    "whats_new": "V150: 41개의 깨끗한 파일과 60개 언어로 완전히 재구축."
+  },
+  "zh": {
+    "name": "简体中文",
+    "flag": "🇨🇳",
+    "app_name": "MarkCraft — 诗意IDE",
+    "subtitle": "60种语言代码编辑器和开发者日记",
+    "description": "MarkCraft将编程变成创造性行为。60种语言语法高亮、开发者日记、墨水注释、音频录制、AI助手、终端模拟器、PDF书籍导出。100%原生SwiftUI。V150。",
+    "keywords": "IDE,代码编辑器,日记,开发者,语法,SwiftUI,编程,markdown",
+    "promo": "将编程变成创造性行为的IDE。",
+    "whats_new": "V150：41个干净文件和60种语言的完全重建。"
+  },
+  "zt": {
+    "name": "繁體中文",
+    "flag": "🇹🇼",
+    "app_name": "MarkCraft — 詩意IDE",
+    "subtitle": "60種語言代碼編輯器和開發者日記",
+    "description": "MarkCraft將程式設計變成創造性行為。60種語言語法高亮、開發者日記、墨水註釋、音訊錄製、AI助手、終端模擬器、PDF書籍匯出。100%原生SwiftUI。V150。",
+    "keywords": "IDE,代碼編輯器,日記,開發者,語法,SwiftUI,程式設計,markdown",
+    "promo": "將程式設計變成創造性行為的IDE。",
+    "whats_new": "V150：41個乾淨檔案和60種語言的完全重建。"
+  },
+  "nl": {
+    "name": "Nederlands",
+    "flag": "🇳🇱",
+    "app_name": "MarkCraft — Poëtische IDE",
+    "subtitle": "60-Talen Code-Editor & Ontwikkelaarsdagboek",
+    "description": "MarkCraft transformeert programmeren in een creatieve daad. 60 talen, ontwikkelaarsdagboek, inktannotaties, audio-opname, AI-assistent, terminal. 100% SwiftUI.",
+    "keywords": "IDE,code-editor,dagboek,ontwikkelaar,syntaxis,SwiftUI,programmeren",
+    "promo": "De IDE die programmeren in een creatieve daad verandert.",
+    "whats_new": "V150: Complete herbouw."
+  },
+  "da": {
+    "name": "Dansk",
+    "flag": "🇩🇰",
+    "app_name": "MarkCraft — Poetisk IDE",
+    "subtitle": "60-Sprogs Kodeeditor & Udviklerdagbog",
+    "description": "MarkCraft forvandler kodning til en kreativ handling. 60 sprog, udviklerdagbog, blækannotationer, lydoptagelse, AI-assistent. 100% SwiftUI.",
+    "keywords": "IDE,kodeeditor,dagbog,udvikler,syntaks,SwiftUI,programmering",
+    "promo": "IDE'en der forvandler kodning til en kreativ handling.",
+    "whats_new": "V150: Komplet genopbygning."
+  },
+  "fi": {
+    "name": "Suomi",
+    "flag": "🇫🇮",
+    "app_name": "MarkCraft — Runollinen IDE",
+    "subtitle": "60 Kielen Koodieditori & Kehittäjän Päiväkirja",
+    "description": "MarkCraft muuttaa koodauksen luovaksi teoksi. 60 kieltä, kehittäjän päiväkirja, musteannotaatiot, äänitallenne, tekoälyavustaja. 100% SwiftUI.",
+    "keywords": "IDE,koodieditori,päiväkirja,kehittäjä,syntaksi,SwiftUI,ohjelmointi",
+    "promo": "IDE joka muuttaa koodauksen luovaksi teoksi.",
+    "whats_new": "V150: Täydellinen uudelleenrakennus."
+  },
+  "no": {
+    "name": "Norsk",
+    "flag": "🇳🇴",
+    "app_name": "MarkCraft — Poetisk IDE",
+    "subtitle": "60-Språks Kodeeditor & Utviklerdagbok",
+    "description": "MarkCraft forvandler koding til en kreativ handling. 60 språk, utviklerdagbok, blekkannoteringer, lydopptak, AI-assistent. 100% SwiftUI.",
+    "keywords": "IDE,kodeeditor,dagbok,utvikler,syntaks,SwiftUI,programmering",
+    "promo": "IDE-en som forvandler koding til en kreativ handling.",
+    "whats_new": "V150: Komplett gjenoppbygging."
+  },
+  "sv": {
+    "name": "Svenska",
+    "flag": "🇸🇪",
+    "app_name": "MarkCraft — Poetisk IDE",
+    "subtitle": "60-Språks Kodredigerare & Utvecklardagbok",
+    "description": "MarkCraft förvandlar kodning till en kreativ handling. 60 språk, utvecklardagbok, bläckanteckningar, ljudinspelning, AI-assistent. 100% SwiftUI.",
+    "keywords": "IDE,kodredigerare,dagbok,utvecklare,syntax,SwiftUI,programmering",
+    "promo": "IDE:n som förvandlar kodning till en kreativ handling.",
+    "whats_new": "V150: Komplett ombyggnad."
+  },
+  "pl": {
+    "name": "Polski",
+    "flag": "🇵🇱",
+    "app_name": "MarkCraft — Poetycki IDE",
+    "subtitle": "Edytor Kodu 60 Języków & Dziennik Programisty",
+    "description": "MarkCraft przekształca kodowanie w akt twórczy. 60 języków, dziennik programisty, adnotacje atramentowe, nagrywanie audio, asystent AI. 100% SwiftUI.",
+    "keywords": "IDE,edytor kodu,dziennik,programista,składnia,SwiftUI,programowanie",
+    "promo": "IDE które przekształca kodowanie w akt twórczy.",
+    "whats_new": "V150: Pełna przebudowa."
+  },
+  "cs": {
+    "name": "Čeština",
+    "flag": "🇨🇿",
+    "app_name": "MarkCraft — Poetické IDE",
+    "subtitle": "Editor Kódu 60 Jazyků & Vývojářský Deník",
+    "description": "MarkCraft proměňuje kódování v tvůrčí akt. 60 jazyků, vývojářský deník, inkoustové anotace, nahrávání zvuku, AI asistent. 100% SwiftUI.",
+    "keywords": "IDE,editor kódu,deník,vývojář,syntaxe,SwiftUI,programování",
+    "promo": "IDE které proměňuje kódování v tvůrčí akt.",
+    "whats_new": "V150: Kompletní přestavba."
+  },
+  "sk": {
+    "name": "Slovenčina",
+    "flag": "🇸🇰",
+    "app_name": "MarkCraft — Poetické IDE",
+    "subtitle": "Editor Kódu 60 Jazykov & Vývojársky Denník",
+    "description": "MarkCraft premieňa kódovanie na tvorivý akt. 60 jazykov, vývojársky denník, atramentové anotácie. 100% SwiftUI.",
+    "keywords": "IDE,editor kódu,denník,vývojár,syntax,SwiftUI,programovanie",
+    "promo": "IDE ktoré premieňa kódovanie na tvorivý akt.",
+    "whats_new": "V150: Kompletná prestavba."
+  },
+  "hu": {
+    "name": "Magyar",
+    "flag": "🇭🇺",
+    "app_name": "MarkCraft — Költői IDE",
+    "subtitle": "60 Nyelvű Kódszerkesztő & Fejlesztői Napló",
+    "description": "A MarkCraft a kódolást kreatív tevékenységgé alakítja. 60 nyelv, fejlesztői napló, tintajegyzetek, hangfelvétel, AI asszisztens. 100% SwiftUI.",
+    "keywords": "IDE,kódszerkesztő,napló,fejlesztő,szintaxis,SwiftUI,programozás",
+    "promo": "Az IDE amely a kódolást kreatív tevékenységgé alakítja.",
+    "whats_new": "V150: Teljes újjáépítés."
+  },
+  "ro": {
+    "name": "Română",
+    "flag": "🇷🇴",
+    "app_name": "MarkCraft — IDE Poetic",
+    "subtitle": "Editor Cod 60 Limbaje & Jurnal Dezvoltator",
+    "description": "MarkCraft transformă programarea într-un act creativ. 60 limbaje, jurnal dezvoltator, adnotări cerneală, înregistrare audio, asistent AI. 100% SwiftUI.",
+    "keywords": "IDE,editor cod,jurnal,dezvoltator,sintaxă,SwiftUI,programare",
+    "promo": "IDE-ul care transformă programarea într-un act creativ.",
+    "whats_new": "V150: Reconstrucție completă."
+  },
+  "hr": {
+    "name": "Hrvatski",
+    "flag": "🇭🇷",
+    "app_name": "MarkCraft — Poetski IDE",
+    "subtitle": "60-Jezični Uređivač Koda & Razvojni Dnevnik",
+    "description": "MarkCraft pretvara kodiranje u kreativni čin. 60 jezika, razvojni dnevnik, tinte bilješke. 100% SwiftUI.",
+    "keywords": "IDE,uređivač koda,dnevnik,razvoj,sintaksa,SwiftUI,programiranje",
+    "promo": "IDE koji pretvara kodiranje u kreativni čin.",
+    "whats_new": "V150: Potpuna obnova."
+  },
+  "bg": {
+    "name": "Български",
+    "flag": "🇧🇬",
+    "app_name": "MarkCraft — Поетична IDE",
+    "subtitle": "Код Редактор 60 Езика & Дневник на Разработчика",
+    "description": "MarkCraft превръща кодирането в творчески акт. 60 езика, дневник на разработчика. 100% SwiftUI.",
+    "keywords": "IDE,код редактор,дневник,разработчик,синтаксис,SwiftUI,програмиране",
+    "promo": "IDE-то което превръща кодирането в творчески акт.",
+    "whats_new": "V150: Пълно преизграждане."
+  },
+  "uk": {
+    "name": "Українська",
+    "flag": "🇺🇦",
+    "app_name": "MarkCraft — Поетична IDE",
+    "subtitle": "Редактор Коду 60 Мов & Щоденник Розробника",
+    "description": "MarkCraft перетворює кодування на творчий акт. 60 мов, щоденник розробника, чорнильні анотації. 100% SwiftUI.",
+    "keywords": "IDE,редактор коду,щоденник,розробник,синтаксис,SwiftUI,програмування",
+    "promo": "IDE яка перетворює кодування на творчий акт.",
+    "whats_new": "V150: Повна перебудова."
+  },
+  "ru": {
+    "name": "Русский",
+    "flag": "🇷🇺",
+    "app_name": "MarkCraft — Поэтическая IDE",
+    "subtitle": "Редактор Кода 60 Языков & Дневник Разработчика",
+    "description": "MarkCraft превращает программирование в творческий акт. 60 языков, дневник разработчика, рукописные аннотации, аудиозапись, ИИ-ассистент, терминал. 100% SwiftUI.",
+    "keywords": "IDE,редактор кода,дневник,разработчик,синтаксис,SwiftUI,программирование",
+    "promo": "IDE которая превращает программирование в творческий акт.",
+    "whats_new": "V150: Полная перестройка."
+  },
+  "el": {
+    "name": "Ελληνικά",
+    "flag": "🇬🇷",
+    "app_name": "MarkCraft — Ποιητικό IDE",
+    "subtitle": "Επεξεργαστής Κώδικα 60 Γλωσσών",
+    "description": "Το MarkCraft μετατρέπει τον προγραμματισμό σε δημιουργική πράξη. 60 γλώσσες. 100% SwiftUI.",
+    "keywords": "IDE,επεξεργαστής κώδικα,ημερολόγιο,SwiftUI,προγραμματισμός",
+    "promo": "Το IDE που μετατρέπει τον προγραμματισμό σε δημιουργική πράξη.",
+    "whats_new": "V150: Πλήρης ανοικοδόμηση."
+  },
+  "tr": {
+    "name": "Türkçe",
+    "flag": "🇹🇷",
+    "app_name": "MarkCraft — Şiirsel IDE",
+    "subtitle": "60 Dil Kod Editörü & Geliştirici Günlüğü",
+    "description": "MarkCraft kodlamayı yaratıcı bir eyleme dönüştürür. 60 dil, geliştirici günlüğü, mürekkep notları, ses kaydı, yapay zeka asistanı. 100% SwiftUI.",
+    "keywords": "IDE,kod editörü,günlük,geliştirici,sözdizimi,SwiftUI,programlama",
+    "promo": "Kodlamayı yaratıcı bir eyleme dönüştüren IDE.",
+    "whats_new": "V150: Tam yeniden yapılanma."
+  },
+  "ca": {
+    "name": "Català",
+    "flag": "🏴",
+    "app_name": "MarkCraft — IDE Poètic",
+    "subtitle": "Editor de Codi 60 Llenguatges",
+    "description": "MarkCraft transforma la programació en un acte creatiu. 60 llenguatges. 100% SwiftUI.",
+    "keywords": "IDE,editor codi,diari,desenvolupador,sintaxi,SwiftUI,programació",
+    "promo": "L'IDE que transforma la programació en un acte creatiu.",
+    "whats_new": "V150: Reconstrucció completa."
+  },
+  "he": {
+    "name": "עברית",
+    "flag": "🇮🇱",
+    "app_name": "MarkCraft — IDE פואטי",
+    "subtitle": "עורך קוד 60 שפות ויומן מפתח",
+    "description": "MarkCraft הופך תכנות למעשה יצירתי. 60 שפות, יומן מפתח. 100% SwiftUI.",
+    "keywords": "IDE,עורך קוד,יומן,מפתח,תחביר,SwiftUI,תכנות",
+    "promo": "ה-IDE שהופך תכנות למעשה יצירתי.",
+    "whats_new": "V150: בנייה מחדש מלאה."
+  },
+  "ar": {
+    "name": "العربية",
+    "flag": "🇸🇦",
+    "app_name": "MarkCraft — بيئة تطوير شاعرية",
+    "subtitle": "محرر أكواد 60 لغة ومذكرة المطور",
+    "description": "MarkCraft يحول البرمجة إلى عمل إبداعي. 60 لغة، مذكرة المطور. 100% SwiftUI.",
+    "keywords": "IDE,محرر أكواد,مذكرة,مطور,تركيب,SwiftUI,برمجة",
+    "promo": "بيئة التطوير التي تحول البرمجة إلى عمل إبداعي.",
+    "whats_new": "V150: إعادة بناء كاملة."
+  },
+  "hi": {
+    "name": "हिन्दी",
+    "flag": "🇮🇳",
+    "app_name": "MarkCraft — काव्यात्मक IDE",
+    "subtitle": "60 भाषा कोड एडिटर और डेवलपर जर्नल",
+    "description": "MarkCraft कोडिंग को एक रचनात्मक कार्य में बदलता है। 60 भाषाएं, डेवलपर जर्नल। 100% SwiftUI.",
+    "keywords": "IDE,कोड एडिटर,जर्नल,डेवलपर,सिंटैक्स,SwiftUI,प्रोग्रामिंग",
+    "promo": "IDE जो कोडिंग को रचनात्मक कार्य में बदलता है।",
+    "whats_new": "V150: पूर्ण पुनर्निर्माण।"
+  },
+  "th": {
+    "name": "ไทย",
+    "flag": "🇹🇭",
+    "app_name": "MarkCraft — IDE เชิงกวี",
+    "subtitle": "ตัวแก้ไขโค้ด 60 ภาษา",
+    "description": "MarkCraft เปลี่ยนการเขียนโค้ดเป็นการสร้างสรรค์ 60 ภาษา 100% SwiftUI.",
+    "keywords": "IDE,ตัวแก้ไขโค้ด,บันทึก,นักพัฒนา,SwiftUI,โปรแกรม",
+    "promo": "IDE ที่เปลี่ยนการเขียนโค้ดเป็นการสร้างสรรค์",
+    "whats_new": "V150: สร้างใหม่ทั้งหมด"
+  },
+  "vi": {
+    "name": "Tiếng Việt",
+    "flag": "🇻🇳",
+    "app_name": "MarkCraft — IDE Thơ Ca",
+    "subtitle": "Trình Soạn Mã 60 Ngôn Ngữ",
+    "description": "MarkCraft biến lập trình thành hành động sáng tạo. 60 ngôn ngữ. 100% SwiftUI.",
+    "keywords": "IDE,trình soạn mã,nhật ký,lập trình viên,SwiftUI,lập trình",
+    "promo": "IDE biến lập trình thành hành động sáng tạo.",
+    "whats_new": "V150: Xây dựng lại hoàn toàn."
+  },
+  "id": {
+    "name": "Bahasa Indonesia",
+    "flag": "🇮🇩",
+    "app_name": "MarkCraft — IDE Puitis",
+    "subtitle": "Editor Kode 60 Bahasa",
+    "description": "MarkCraft mengubah pemrograman menjadi tindakan kreatif. 60 bahasa. 100% SwiftUI.",
+    "keywords": "IDE,editor kode,jurnal,pengembang,sintaksis,SwiftUI,pemrograman",
+    "promo": "IDE yang mengubah pemrograman menjadi tindakan kreatif.",
+    "whats_new": "V150: Pembangunan ulang lengkap."
+  },
+  "ms": {
+    "name": "Bahasa Melayu",
+    "flag": "🇲🇾",
+    "app_name": "MarkCraft — IDE Puitis",
+    "subtitle": "Editor Kod 60 Bahasa",
+    "description": "MarkCraft mengubah pengaturcaraan menjadi tindakan kreatif. 60 bahasa. 100% SwiftUI.",
+    "keywords": "IDE,editor kod,jurnal,pembangun,sintaksis,SwiftUI,pengaturcaraan",
+    "promo": "IDE yang mengubah pengaturcaraan menjadi tindakan kreatif.",
+    "whats_new": "V150: Pembinaan semula lengkap."
+  },
+  "em": {
+    "name": "Español (Latinoamérica)",
+    "flag": "🇲🇽",
+    "app_name": "MarkCraft — IDE Poético",
+    "subtitle": "Editor de Código 60 Lenguajes",
+    "description": "MarkCraft transforma la programación en un acto creativo. 60 lenguajes, diario de desarrollador. 100% SwiftUI.",
+    "keywords": "IDE,editor código,diario,desarrollador,sintaxis,SwiftUI,programación",
+    "promo": "El IDE que transforma la programación en un acto creativo.",
+    "whats_new": "V150: Reconstrucción completa."
+  },
+  "pp": {
+    "name": "Português (Portugal)",
+    "flag": "🇵🇹",
+    "app_name": "MarkCraft — IDE Poético",
+    "subtitle": "Editor de Código 60 Linguagens",
+    "description": "MarkCraft transforma a programação num ato criativo. 60 linguagens, diário de programador. 100% SwiftUI.",
+    "keywords": "IDE,editor código,diário,programador,sintaxe,SwiftUI,programação",
+    "promo": "O IDE que transforma a programação num ato criativo.",
+    "whats_new": "V150: Reconstrução completa."
+  },
+  "lt": {
+    "name": "Lietuvių",
+    "flag": "🇱🇹",
+    "app_name": "MarkCraft — Poetinis IDE",
+    "subtitle": "60 Kalbų Kodo Redaktorius",
+    "description": "MarkCraft paverčia programavimą kūrybiniu veiksmu. 60 kalbų. 100% SwiftUI.",
+    "keywords": "IDE,kodo redaktorius,dienoraštis,programuotojas,SwiftUI",
+    "promo": "IDE paverčiantis programavimą kūrybiniu veiksmu.",
+    "whats_new": "V150: Pilnas atstatymas."
+  },
+  "et": {
+    "name": "Eesti",
+    "flag": "🇪🇪",
+    "app_name": "MarkCraft — Poeetiline IDE",
+    "subtitle": "60 Keele Koodiredaktor",
+    "description": "MarkCraft muudab kodeerimise loominguliseks teoks. 60 keelt. 100% SwiftUI.",
+    "keywords": "IDE,koodiredaktor,päevik,arendaja,süntaks,SwiftUI",
+    "promo": "IDE mis muudab kodeerimise loominguliseks teoks.",
+    "whats_new": "V150: Täielik ümberehitus."
+  },
+  "bn": {
+    "name": "বাংলা",
+    "flag": "🇧🇩",
+    "app_name": "MarkCraft — কবিতামূলক IDE",
+    "subtitle": "macOS-এর জন্য কোড, তৈরি করুন, স্বপ্ন দেখুন",
+    "description": "MarkCraft একটি সুন্দর কোড এডিটর যা macOS-এর জন্য Swift/SwiftUI-তে নির্মিত। ৩০+ ভাষায় সিনট্যাক্স হাইলাইটিং, ৬০টি প্রোগ্রামিং ভাষার ডকুমেন্টেশন, স্প্লিট ভিউ, কমান্ড প্যালেট এবং ৬টি সিনট্যাক্স থিম সহ।",
+    "keywords": "কোড,এডিটর,IDE,সিনট্যাক্স,প্রোগ্রামিং,ডেভেলপার,swift,python",
+    "whats_new": "নতুন সিনট্যাক্স ইঞ্জিন, ৬০ ভাষার ডকুমেন্টেশন"
+  },
+  "sl": {
+    "name": "Slovenščina",
+    "flag": "🇸🇮",
+    "app_name": "MarkCraft — Poetični IDE",
+    "subtitle": "Kodirajte, ustvarjajte, sanjajte za macOS",
+    "description": "MarkCraft je eleganten urejevalnik kode, zgrajen v Swift/SwiftUI za macOS. Označevanje sintakse za 30+ jezikov, dokumentacija za 60 programskih jezikov, razdeljen pogled, ukazna paleta in 6 tem sintakse.",
+    "keywords": "koda,urejevalnik,IDE,sintaksa,programiranje,razvijalec,swift,python",
+    "whats_new": "Nov sintaksni motor, dokumentacija za 60 jezikov"
+  }
+}
