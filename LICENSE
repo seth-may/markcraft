@@ -1,0 +1,72 @@
+MarkCraft — Licence Propriétaire
+
+Copyright (c) 2026 Seth May. Tous droits réservés.
+
+1. DROITS ACCORDÉS
+
+   Le code source de MarkCraft est rendu disponible à des fins de consultation
+   et d'apprentissage uniquement. Vous êtes autorisé à :
+
+   - Consulter le code source à titre personnel et éducatif.
+   - Compiler et exécuter le logiciel localement pour votre usage personnel.
+   - Signaler des bugs et proposer des corrections via pull request au dépôt
+     officiel, sous réserve d'acceptation par l'auteur.
+
+2. RESTRICTIONS
+
+   Sauf autorisation écrite préalable de l'auteur, il est strictement interdit de :
+
+   a) Distribuer, redistribuer, publier ou mettre à disposition tout ou partie
+      du code source ou du logiciel compilé, que ce soit gratuitement ou contre
+      rémunération, sous quelque forme que ce soit.
+
+   b) Créer des forks, copies dérivées, versions modifiées ou œuvres dérivées
+      du logiciel, que ce soit à des fins personnelles, commerciales ou
+      communautaires.
+
+   c) Sous-licencier, vendre, louer, prêter ou transférer les droits sur le
+      logiciel ou son code source à un tiers.
+
+   d) Utiliser le code source, en tout ou en partie, dans un autre projet
+      logiciel, qu'il soit open source ou propriétaire.
+
+   e) Supprimer, modifier ou masquer les mentions de copyright, les crédits
+      ou la présente licence.
+
+   f) Publier le logiciel sur un magasin d'applications, un site de
+      téléchargement ou toute autre plateforme de distribution.
+
+3. CONTRIBUTIONS
+
+   Toute contribution soumise au dépôt officiel (pull request, patch, code)
+   est cédée de manière irrévocable à l'auteur (Seth May) et devient la
+   propriété exclusive de ce dernier, soumise aux termes de la présente licence.
+
+4. MARQUES
+
+   Le nom « MarkCraft », le logo et les éléments visuels associés sont des
+   marques de Seth May. Leur utilisation est interdite sans autorisation écrite.
+
+5. ABSENCE DE GARANTIE
+
+   LE LOGICIEL EST FOURNI « EN L'ÉTAT », SANS GARANTIE D'AUCUNE SORTE,
+   EXPRESSE OU IMPLICITE, Y COMPRIS MAIS SANS S'Y LIMITER LES GARANTIES
+   DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER ET DE
+   NON-CONTREFAÇON. EN AUCUN CAS L'AUTEUR NE POURRA ÊTRE TENU RESPONSABLE
+   DE TOUT DOMMAGE, RÉCLAMATION OU AUTRE RESPONSABILITÉ, QUE CE SOIT DANS
+   LE CADRE D'UN CONTRAT, D'UN DÉLIT OU AUTRE, DÉCOULANT DE OU EN RELATION
+   AVEC LE LOGICIEL OU SON UTILISATION.
+
+6. RÉSILIATION
+
+   Toute violation des termes de la présente licence entraîne la résiliation
+   automatique et immédiate des droits qui vous sont accordés. En cas de
+   résiliation, vous devez cesser toute utilisation du logiciel et détruire
+   toutes les copies en votre possession.
+
+7. DROIT APPLICABLE
+
+   La présente licence est régie par le droit français. Tout litige sera
+   soumis à la compétence exclusive des tribunaux français.
+
+Pour toute demande d'autorisation : contact@markcraft.fr
